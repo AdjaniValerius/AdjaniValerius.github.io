@@ -1,0 +1,205 @@
+ul {
+  display: flex;
+  flex-direction: row-reverse;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: cyan;
+  }
+  
+li {
+  float: left;
+  }
+  
+#buttons1, #buttons2, #buttons3, #buttons4{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+  
+li a:hover{
+  background-color: black;
+  }
+  
+.active {
+  background-color:black;
+  }
+
+#telefoon{
+    text-decoration: underline;
+  }
+
+h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: underline;
+  }
+
+#logo {
+  width: 40px;
+  height: 38px;
+  margin-bottom: -46px;
+  margin-left: 10px;
+}
+
+#profieltekst1, #profieltekst2{
+  width: 725px; 
+  height: 50px;
+  margin-left: 30%;
+}
+
+p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#adjanifoto2{
+  display: none;
+}
+
+#selfie3{
+  border: 2px solid black;
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 180px;
+  height: 180px;
+
+}
+
+#selfie2 {
+  border: 2px solid black;
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 250px;
+  height: 250px;
+  display:none;
+}
+
+#selfie1 {
+  border: 2px solid black;
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 250px;
+  height: 250px;
+}
+
+#vlag1{
+  border: 2px solid black;
+  width: 250px;
+  height: 250px;
+  margin-left: 15%;
+}
+
+#foto1{
+  border: 2px solid black;
+  width: 250px;
+  height: 250px;
+  margin-left: 15px;
+}
+
+#foto10{
+  border: 2px solid black;
+  width: 250px;
+  height: 250px;
+}
+
+#foto2{
+  border: 2px solid black;
+  width: 200px;
+  height: 250px;
+  margin-left: 5px;
+}
+
+#tekstselfie{
+  margin-left:-79%;
+  color: black;
+  text-decoration: underline;
+}
+#tekstvlag1{
+  border: 1px solid black;
+  width: 250px;
+  margin-left: 15%;
+  color: black;
+}
+
+#tekstfoto1{
+  border: 1px solid black;
+  width: 250px;
+  margin-left:10%;
+  color: black;
+}
+
+#tekstfoto2{
+  border: 1px solid black;
+  width: 202px;
+  margin-left:139px;
+  color: black;
+}
+
+#toelichting{
+  display: flex;
+}
+
+
+#hobbys{
+  display: flex;
+  flex-direction:column;
+  margin-left: 47%;
+  color: black;
+}
+
+#tekst6{
+  margin-top: 5%;
+}
+
+#vaardigheden{
+  display: flex;
+  flex-direction:column;
+  margin-left: 47%;
+  color: black;
+}
+
+
+body{
+	min-width: 100%;
+}
+#all{
+	width:100%;
+	margin: 0 auto; /*centers the website*/
+}
+
+#likes{
+	height:5px;
+	width:50%;
+	background:#0000ee;
+  float:left;
+
+}
+#dislikes{
+	height:5px;
+	width:50%;
+	background:#ccc;
+  float:right;
+
+}
+
+#bar{
+	margin:0 auto;
+	width:60%;
+}
+
+#button5{
+  margin-left: 46%;
+  margin-top: 7%;
+}
+
+#vandaag{
+  margin-top: 10%;
+  margin-left: 30%;
+  text-decoration: underline;
+}
